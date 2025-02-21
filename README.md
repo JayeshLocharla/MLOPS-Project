@@ -1,5 +1,17 @@
 # MLOPS-Project
 
+# MLOPS-Project
+
+The **MLOPS-Project** is a streamlined, production-ready workflow designed for deploying machine learning models with robust **CI/CD pipelines**, **MLflow tracking**, and **AWS integration**. This project follows a structured approach, starting with updating essential YAML configurations, refining pipeline components, and integrating the application (`app.py`) before deployment. 
+
+The project ensures **version control, reproducibility, and scalability** in machine learning model deployment. It leverages **MLflow** for experiment tracking and model versioning, with **DagsHub** as the remote tracking server. Additionally, it integrates **AWS CI/CD pipelines** using GitHub Actions, automating the deployment process by:
+1. Building a **Docker image** for the project.
+2. Pushing the image to **AWS Elastic Container Registry (ECR)**.
+3. Deploying the containerized application on an **AWS EC2 instance**.
+
+With a **self-hosted GitHub runner**, the project automates model training, logging, and deployment, ensuring efficiency and reliability. The use of **AWS, Docker, and MLflow** makes this an ideal framework for **MLOps workflows**, providing scalability and seamless transitions from experimentation to production.
+
+
 ## Workflows
 
 1. Update config.yaml
